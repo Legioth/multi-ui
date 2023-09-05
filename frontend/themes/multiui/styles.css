@@ -1,1 +1,9 @@
 @import url('./main-layout.css');
+
+.admin {
+  background-color: hotpink;
+  
+  --lumo-border-radius-s: calc(var(--lumo-size-m) / 6);
+  --lumo-border-radius-m: calc(var(--lumo-size-m) / 2);
+  --lumo-border-radius-l: var(--lumo-size-m);
+}
